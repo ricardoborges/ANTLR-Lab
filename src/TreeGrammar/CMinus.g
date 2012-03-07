@@ -1,6 +1,6 @@
 grammar CMinus;
 
-options {output=AST;}
+options {output=AST;language=CSharp3;}
 
 tokens {
   VAR;   
@@ -11,7 +11,7 @@ tokens {
 
 
 
-program
+public program
     :   declaration+
     ;
 
