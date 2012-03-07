@@ -2,74 +2,86 @@ grammar CMinus;
 
 options {output=AST;}
 
-tokens{
-  VAR;
-  FUNC;
-  ARG;
-  SLIST;
+tokens {
+  VAR;   
+  FUNC;  
+  ARG;   
+  SLIST; 
 }
 
-program : declaration+;
+
+
+program
+    :   declaration+
+    ;
 
 declaration
-	: variable
-	| function
-	;
+    :   variable
+    |   function
+    ;
 
-variable: type ID ';' -> ^(VAR type ID);
+variable
+    :   type ID ';' -> ^(VAR type ID)
+    ;
 
-type : 'int'
-     | 'char'
-     ;
-	
-function 
-    	: type ID
-    	  '(' (formalParameter (',' formalParameter)*)? ')'
-    	  block
-    	  -> ^ (FUNC type ID formalParameter* block)
-  	;	
-  	
+type:   'int' 
+    |   'char'
+    ;
+
+function
+    :   type ID
+        '(' ( formalParameter (',' formalParameter)* )?  ')'
+        block
+        -> ^(FUNC type ID formalParameter* block)
+    ;
+
 formalParameter
-	: type ID ->  ^(ARG type ID)
-	;
-	
-block
-        : lc='{' variable* stat* '}'
-          -> ^(SLIST[$lc, "SLIST"] variable* stat*)
-	;	
-	
-stat	: forStat
-        | expr ';'!
-        | block
-        | assignStat ';'!	
-        | ';'!
-        ;
-        
-forStat
-     	: 'for' '(' first=assignStat ';' expr ';' inc=assignStat ')' block
-     	   -> ^('for' $first expr $inc block)
-        ; 
-        
-assignStat: ID '=' expr -> ^('=' ID expr);
+    :   type ID -> ^(ARG type ID)
+    ;
 
-expr: condExpr;
+
+block
+    :   lc='{' variable* stat* '}'
+        -> ^(SLIST[$lc,"SLIST"] variable* stat*)
+    ;
+
+stat: forStat
+    | expr ';'!
+    | block
+    | assignStat ';'!
+    | ';'!
+    ;
+
+forStat
+    :   'for' '(' first=assignStat ';' expr ';' inc=assignStat ')' block
+        -> ^('for' $first expr $inc block)
+    ;
+
+assignStat
+    :   ID '=' expr -> ^('=' ID expr)
+    ;
+
+expr:   condExpr ;
 
 condExpr
-        : aexpr (('=='|'!='^) aexpr)?
-	;
+    :   aexpr ( ('=='^|'!='^) aexpr )?
+    ;
 
-aexpr: mexpr ('+' ^ mexpr)*;
+aexpr
+    :   mexpr ('+'^ mexpr)*
+    ;
 
-mexpr	:	 atom ('*'^  atom)*	;
+mexpr
+    :   atom ('*'^ atom)*
+    ;
 
-atom: ID
-     | INT 
-     | '(' expr ')' -> expr
-     ;
+atom:   ID
+    |   INT
+    |   '(' expr ')' -> expr
+    ;
 
+ID  :   ('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'0'..'9'|'_')* ;
 
-ID : ('a'..'z' |'A'..'Z' |'_' ) ('a'..'z' |'A'..'Z' |'0'..'9' |'_' )* ;
+INT :   ('0'..'9')+ ;
 
-INT : ('0'..'9' )+ ;
-
-WS : ( ' ' | '\t' | '\r' | '\n' )+ { $channel = HIDDEN; } ;	
+WS  :   ( ' ' | '\t' | '\r' | '\n' )+ { $channel = HIDDEN; } ;    
