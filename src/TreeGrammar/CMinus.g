@@ -1,6 +1,9 @@
 grammar CMinus;
 
-options {output=AST;language=CSharp3;}
+options {
+output=AST;
+language=CSharp3;
+}
 
 tokens {
   VAR;   
@@ -8,8 +11,6 @@ tokens {
   ARG;   
   SLIST; 
 }
-
-
 
 public program
     :   declaration+
@@ -84,4 +85,4 @@ ID  :   ('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'0'..'9'|'_')* ;
 
 INT :   ('0'..'9')+ ;
 
-WS  :   ( ' ' | '\t' | '\r' | '\n' )+ { $channel = HIDDEN; } ;    
+WS  :   ( ' ' | '\t' | '\r' | '\n' )+ { $channel = Hidden; } ;    

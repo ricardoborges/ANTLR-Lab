@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// $ANTLR 3.4 E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g 2012-03-07 17:14:25
+// $ANTLR 3.4 E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g 2012-03-07 22:22:43
 
 // The variable 'variable' is assigned but its value is never used.
 #pragma warning disable 219
@@ -70,7 +70,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 
 		OnCreated();
 	}
-	public override string GrammarFileName { get { return "E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g"; } }
+	public override string GrammarFileName { get { return "E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g"; } }
 
 
 	partial void OnCreated();
@@ -91,9 +91,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__11;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:7:7: ( '!=' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:7:7: ( '!=' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:7:9: '!='
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:7:9: '!='
 			{
 			DebugLocation(7, 9);
 			Match("!="); 
@@ -127,9 +127,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__12;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:8:7: ( '(' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:8:7: ( '(' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:8:9: '('
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:8:9: '('
 			{
 			DebugLocation(8, 9);
 			Match('('); 
@@ -162,9 +162,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__13;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:9:7: ( ')' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:9:7: ( ')' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:9:9: ')'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:9:9: ')'
 			{
 			DebugLocation(9, 9);
 			Match(')'); 
@@ -197,9 +197,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__14;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:10:7: ( '*' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:10:7: ( '*' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:10:9: '*'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:10:9: '*'
 			{
 			DebugLocation(10, 9);
 			Match('*'); 
@@ -232,9 +232,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__15;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:11:7: ( '+' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:11:7: ( '+' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:11:9: '+'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:11:9: '+'
 			{
 			DebugLocation(11, 9);
 			Match('+'); 
@@ -267,9 +267,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__16;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:12:7: ( ',' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:12:7: ( ',' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:12:9: ','
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:12:9: ','
 			{
 			DebugLocation(12, 9);
 			Match(','); 
@@ -302,9 +302,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__17;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:13:7: ( ';' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:13:7: ( ';' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:13:9: ';'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:13:9: ';'
 			{
 			DebugLocation(13, 9);
 			Match(';'); 
@@ -337,9 +337,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__18;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:14:7: ( '=' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:14:7: ( '=' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:14:9: '='
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:14:9: '='
 			{
 			DebugLocation(14, 9);
 			Match('='); 
@@ -372,9 +372,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__19;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:15:7: ( '==' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:15:7: ( '==' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:15:9: '=='
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:15:9: '=='
 			{
 			DebugLocation(15, 9);
 			Match("=="); 
@@ -408,9 +408,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__20;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:16:7: ( 'char' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:16:7: ( 'char' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:16:9: 'char'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:16:9: 'char'
 			{
 			DebugLocation(16, 9);
 			Match("char"); 
@@ -444,9 +444,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__21;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:17:7: ( 'for' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:17:7: ( 'for' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:17:9: 'for'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:17:9: 'for'
 			{
 			DebugLocation(17, 9);
 			Match("for"); 
@@ -480,9 +480,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__22;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:18:7: ( 'int' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:18:7: ( 'int' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:18:9: 'int'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:18:9: 'int'
 			{
 			DebugLocation(18, 9);
 			Match("int"); 
@@ -516,9 +516,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__23;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:19:7: ( '{' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:19:7: ( '{' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:19:9: '{'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:19:9: '{'
 			{
 			DebugLocation(19, 9);
 			Match('{'); 
@@ -551,9 +551,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = T__24;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:20:7: ( '}' )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:20:7: ( '}' )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:20:9: '}'
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:20:9: '}'
 			{
 			DebugLocation(20, 9);
 			Match('}'); 
@@ -586,11 +586,11 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = ID;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:83:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )* )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:84:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )* )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:83:9: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )*
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:84:9: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )*
 			{
-			DebugLocation(83, 9);
+			DebugLocation(84, 9);
 			if ((input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z'))
 			{
 				input.Consume();
@@ -603,8 +603,8 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 				throw mse;
 			}
 
-			DebugLocation(83, 33);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:83:33: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )*
+			DebugLocation(84, 33);
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:84:33: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )*
 			try { DebugEnterSubRule(1);
 			while (true)
 			{
@@ -623,9 +623,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 				{
 				case 1:
 					DebugEnterAlt(1);
-					// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:
+					// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:
 					{
-					DebugLocation(83, 33);
+					DebugLocation(84, 33);
 					input.Consume();
 
 
@@ -671,12 +671,12 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = INT;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:85:5: ( ( '0' .. '9' )+ )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:86:5: ( ( '0' .. '9' )+ )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:85:9: ( '0' .. '9' )+
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:86:9: ( '0' .. '9' )+
 			{
-			DebugLocation(85, 9);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:85:9: ( '0' .. '9' )+
+			DebugLocation(86, 9);
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:86:9: ( '0' .. '9' )+
 			int cnt2=0;
 			try { DebugEnterSubRule(2);
 			while (true)
@@ -696,9 +696,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 				{
 				case 1:
 					DebugEnterAlt(1);
-					// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:
+					// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:
 					{
-					DebugLocation(85, 9);
+					DebugLocation(86, 9);
 					input.Consume();
 
 
@@ -749,12 +749,12 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 			int _type = WS;
 			int _channel = DefaultTokenChannel;
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:87:5: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:88:5: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:87:9: ( ' ' | '\\t' | '\\r' | '\\n' )+
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:88:9: ( ' ' | '\\t' | '\\r' | '\\n' )+
 			{
-			DebugLocation(87, 9);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:87:9: ( ' ' | '\\t' | '\\r' | '\\n' )+
+			DebugLocation(88, 9);
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:88:9: ( ' ' | '\\t' | '\\r' | '\\n' )+
 			int cnt3=0;
 			try { DebugEnterSubRule(3);
 			while (true)
@@ -774,9 +774,9 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 				{
 				case 1:
 					DebugEnterAlt(1);
-					// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:
+					// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:
 					{
-					DebugLocation(87, 9);
+					DebugLocation(88, 9);
 					input.Consume();
 
 
@@ -798,7 +798,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 
 			} finally { DebugExitSubRule(3); }
 
-			DebugLocation(87, 39);
+			DebugLocation(88, 39);
 			 _channel = Hidden; 
 
 			}
@@ -817,7 +817,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 
 	public override void mTokens()
 	{
-		// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:8: ( T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | ID | INT | WS )
+		// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:8: ( T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | ID | INT | WS )
 		int alt4=17;
 		try { DebugEnterDecision(4, false);
 		switch (input.LA(1))
@@ -1075,7 +1075,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 		{
 		case 1:
 			DebugEnterAlt(1);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:10: T__11
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:10: T__11
 			{
 			DebugLocation(1, 10);
 			mT__11(); 
@@ -1084,7 +1084,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 2:
 			DebugEnterAlt(2);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:16: T__12
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:16: T__12
 			{
 			DebugLocation(1, 16);
 			mT__12(); 
@@ -1093,7 +1093,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 3:
 			DebugEnterAlt(3);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:22: T__13
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:22: T__13
 			{
 			DebugLocation(1, 22);
 			mT__13(); 
@@ -1102,7 +1102,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 4:
 			DebugEnterAlt(4);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:28: T__14
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:28: T__14
 			{
 			DebugLocation(1, 28);
 			mT__14(); 
@@ -1111,7 +1111,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 5:
 			DebugEnterAlt(5);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:34: T__15
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:34: T__15
 			{
 			DebugLocation(1, 34);
 			mT__15(); 
@@ -1120,7 +1120,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 6:
 			DebugEnterAlt(6);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:40: T__16
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:40: T__16
 			{
 			DebugLocation(1, 40);
 			mT__16(); 
@@ -1129,7 +1129,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 7:
 			DebugEnterAlt(7);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:46: T__17
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:46: T__17
 			{
 			DebugLocation(1, 46);
 			mT__17(); 
@@ -1138,7 +1138,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 8:
 			DebugEnterAlt(8);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:52: T__18
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:52: T__18
 			{
 			DebugLocation(1, 52);
 			mT__18(); 
@@ -1147,7 +1147,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 9:
 			DebugEnterAlt(9);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:58: T__19
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:58: T__19
 			{
 			DebugLocation(1, 58);
 			mT__19(); 
@@ -1156,7 +1156,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 10:
 			DebugEnterAlt(10);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:64: T__20
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:64: T__20
 			{
 			DebugLocation(1, 64);
 			mT__20(); 
@@ -1165,7 +1165,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 11:
 			DebugEnterAlt(11);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:70: T__21
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:70: T__21
 			{
 			DebugLocation(1, 70);
 			mT__21(); 
@@ -1174,7 +1174,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 12:
 			DebugEnterAlt(12);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:76: T__22
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:76: T__22
 			{
 			DebugLocation(1, 76);
 			mT__22(); 
@@ -1183,7 +1183,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 13:
 			DebugEnterAlt(13);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:82: T__23
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:82: T__23
 			{
 			DebugLocation(1, 82);
 			mT__23(); 
@@ -1192,7 +1192,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 14:
 			DebugEnterAlt(14);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:88: T__24
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:88: T__24
 			{
 			DebugLocation(1, 88);
 			mT__24(); 
@@ -1201,7 +1201,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 15:
 			DebugEnterAlt(15);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:94: ID
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:94: ID
 			{
 			DebugLocation(1, 94);
 			mID(); 
@@ -1210,7 +1210,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 16:
 			DebugEnterAlt(16);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:97: INT
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:97: INT
 			{
 			DebugLocation(1, 97);
 			mINT(); 
@@ -1219,7 +1219,7 @@ public partial class CMinusLexer : Antlr.Runtime.Lexer
 			break;
 		case 17:
 			DebugEnterAlt(17);
-			// E:\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:101: WS
+			// E:\\Dev\\Git\\ANTLR-Lab\\src\\TreeGrammar\\CMinus.g:1:101: WS
 			{
 			DebugLocation(1, 101);
 			mWS(); 

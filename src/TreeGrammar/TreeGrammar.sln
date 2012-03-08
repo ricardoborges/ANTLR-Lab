@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeGrammar", "TreeGrammar\TreeGrammar.csproj", "{4772D3F7-8C9B-4B13-AA2F-581D87DE25FD}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeGrammar", "TreeGrammar.csproj", "{4772D3F7-8C9B-4B13-AA2F-581D87DE25FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
