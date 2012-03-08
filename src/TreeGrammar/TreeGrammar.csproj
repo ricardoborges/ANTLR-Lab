@@ -56,6 +56,9 @@
     <Reference Include="Antlr3.Runtime">
       <HintPath>..\..\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Antlr3.StringTemplate">
+      <HintPath>..\..\lib\Antlr3.StringTemplate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -72,6 +75,7 @@
   <ItemGroup>
     <Compile Include="CMinusLexer.cs" />
     <Compile Include="CMinusParser.cs" />
+    <Compile Include="CMinusWalker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

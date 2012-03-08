@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using Antlr.Runtime;
 using Antlr.Runtime.Tree;
+using Antlr3.ST;
 
 namespace TreeGrammar
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            Do(false);
+        }
+
+        static void Do(bool dot)
         {
             var input = new ANTLRStringStream(
 @"
@@ -26,12 +32,27 @@ int foo(int y, char d) {
             var lexer = new CMinusLexer(input);
             var tokens = new CommonTokenStream(lexer);
             var parser = new CMinusParser(tokens);
-            
-            var result = parser.program();
+            var r = parser.program();
+            var t = (CommonTree)r.Tree;
 
-            var t = (CommonTree) result.Tree;
+            if (dot) {
+                DotTreeGenerator gen = new DotTreeGenerator();
+                var st = gen.ToDot(t);
+                
+                Console.WriteLine(st);
+            }
+            else {
 
-            Console.Out.WriteLine(t.ToStringTree());
+                Console.WriteLine(t.ToStringTree());
+            }
+
+            var nodes = new CommonTreeNodeStream(t);
+
+            nodes.TokenStream = tokens;
+
+            var walker = new CMinusWalker(nodes);
+
+            walker.program();
         }
     }
 }
